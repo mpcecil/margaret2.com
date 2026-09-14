@@ -1,12 +1,10 @@
 # TARGET: today's build
 
-Choose the idea, person, interaction, and visual direction. The agent can help phrase and save your decisions after you approve them. The provided scope and review safeguards stay in place.
-
-- **Thing:** [My one-page website or mini-app and its main interaction.]
-- **Audience:** [One specific person, and what they want to do or understand.]
-- **Requirements:** One working primary interaction; selected states and results are understandable; honor my approved standing rule in AGENTS.md.
-- **Guardrails:** Static browser code. No required external service, keys, accounts, runtime AI, or private data. Label fictional or sample content. Preserve the example and publishing setup. Work on a branch and wait for human review before shipping.
-- **Experience:** [My visual reference or direction and the most important layout or interaction relationship.]
-- **Test:** I can complete the main action, check one boundary or factual claim, and point to my standing rule's effect in the actual preview. After I approve and merge, the same registered Pages URL works.
+- **Thing:** A small multi-page grocery-budget planner for college students. It includes separate spaces for preferences, a meal calendar, and a grocery list.
+- **Audience:** Margaret and students like her who cook for themselves in an apartment, shop mainly at Trader Joe’s, and need groceries to last within a monthly budget.
+- **Requirements:** A preferences page collects monthly grocery budget, dietary needs or allergies, preferred meals, usual store, and weekly or monthly feedback. A primary “generate plan” action creates a seven-day meal calendar with real recipe titles that link to their online sources, estimated grocery costs, and a categorized grocery list on its own page. Feedback changes later suggestions in the browser. Results clearly label estimated prices and recipe-source links. Honor the standing rule in `AGENTS.md`.
+- **Guardrails:** Static browser code. No required external service, keys, accounts, runtime AI, or private data. Store feedback only in the visitor’s browser. Use real recipe links with clear source attribution; label estimated grocery prices and sample planning data. Preserve the example and publishing setup. Work on a branch and wait for human review before shipping.
+- **Experience:** Clear navigation between Preferences, Calendar, and Grocery List. The preferences area uses a calm, step-by-step flow; the calendar makes each recipe easy to open; and the grocery list makes the next shopping trip easy to scan. Show progress, selected preferences, and the estimated total throughout.
+- **Test:** I can adjust my preferences and budget, generate a calendar with clickable recipe sources, and view the matching grocery list and estimated total. I can submit feedback, generate another plan, and see that feedback affect a later suggestion. I can try a budget that is too low and see the app explain the conflict instead of showing an over-budget plan. After I approve and merge, the same registered Pages URL works.
 
 The coastal example has a [completed TARGET](examples/coast/SPEC.md). It demonstrates the format, not a required topic.

@@ -19,7 +19,7 @@ After STOP 1, help the student propose and approve the six TARGET lines and one 
 
 ## My standing rule
 
-[One observable, student-approved rule that protects this project's purpose or experience.]
+Never show a meal plan whose estimated grocery total exceeds the student’s entered budget. Always show the estimate and explain what must change if the budget cannot support the selected preferences.
 
 ## Workflow
 
